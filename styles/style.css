@@ -1,6 +1,6 @@
-* {
+/** {
   border: solid 1px black;
-}
+}*/
 
 body {
   display: grid;
@@ -31,8 +31,10 @@ nav ul li {
 }
 
 nav ul li div {
-  display:flex;
+  display:block;
   height: 100%;
+  position:relative;
+  overflow: hidden;
 }
 
 button {
@@ -42,7 +44,7 @@ button {
   height: 100%;
   padding: 0;
   margin: 0;
-  border: none;
+  border: solid 0.5px rgb(125,125,125);
 }
 
 button:hover {
@@ -60,6 +62,9 @@ input {
   margin: auto;
   border: solid 1px gray;
   border-radius: 6px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6%2BR8AAAAlElEQVR42oWQQRHEIAxF10ElVAISVgo3bCABCUhYCZWAhEpAQpoD6bzJhNnDO0DyyA8fEXkppXyVCpLViDUfyqVIQN9JFMY637hrlCySFauL21E7KVWbAIGx56rnSLqc5KPXSLo3kySalPhTygFhRDtFC09EIsMeZJSGBj7Qveh3OJW89syImiH%2BIO2BOJX0XwA2%2BQEL4pAhSX4aBQAAAABJRU5ErkJggg%3D%3D");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 footer {}
@@ -73,10 +78,68 @@ footer {}
   border-bottom-left-radius: 3px;
 }
 
+.button-apple-logo {
+  position: absolute;
+  top: 0;
+  left: -31px;
+  object-fit: cover;
+}
+
+.button-store {
+  position: absolute;
+  top: -28px;
+  left: -31px;
+  object-fit: cover;
+}
+
+.button-mac {
+  position: absolute;
+  top: -57px;
+  left: -31px;
+  object-fit: cover;
+}
+
+.button-ipod {
+  position: absolute;
+  top: -87px;
+  left: -31px;
+  object-fit: cover;
+}
+
+.button-iphone {
+  position: absolute;
+  top: -117px;
+  left: -31px;
+  object-fit: cover;
+}
+
+.button-ipad {
+  position: absolute;
+  top: -147px;
+  left: -31px;
+  object-fit: cover;
+}
+
+.button-itunes {
+  position: absolute;
+  top: -177px;
+  left: -31px;
+  object-fit: cover;
+}
+
+.button-support {
+  position: absolute;
+  top: -208px;
+  left: -31px;
+  object-fit: cover;
+}
+
 .last-list-element {
   background: rgb(125,125,125);
   background: linear-gradient(rgb(125, 125, 125),rgb(125, 125, 125) 35%, rgb(50, 50, 50) 65%, rgb(50, 50, 50));
   display: flex;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 .top-content {
