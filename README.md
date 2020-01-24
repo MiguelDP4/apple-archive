@@ -17,9 +17,10 @@ Home page for apple back when iphone 5 was new
 
 #### and deployed to GitHub
 
-## Live Demo available after merging feature to master branch, please wait for the project to be approved
+## Live Demo
 
 [Live Demo](https://migueldp4.github.io/apple-archive/)
+This is going to be available after merging feature to master branch, please wait for the project to be approved.
 
 ## 🤝 Contributing
 
