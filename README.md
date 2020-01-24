@@ -17,9 +17,9 @@ Home page for apple back when iphone 5 was new
 
 #### and deployed to GitHub
 
-## Live Demo available after merging feature to master branch, please wait for the project to be approved
+## Live Demo
 
-[Live Demo]()
+[Live Demo](https://fourth-microverse-project.000webhostapp.com/)
 
 ## 🤝 Contributing
 
